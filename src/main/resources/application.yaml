@@ -1,0 +1,22 @@
+server:
+  port: 8080
+  servlet:
+    context-path:
+
+spring:
+  application:
+    name: db3
+
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      authentication-database: admin
+      database: db1
+      username: user1
+      password: user1
+
+  jackson:
+    serialization:
+      indent_output: true
+
